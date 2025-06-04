@@ -114,12 +114,12 @@ If you want to run the application using Docker:
 
 2. Build the Docker image:
 ```bash
-docker build -t movie-search-system .
+docker build -t movie-search-bot .
 ```
 
 3. Run the container:
 ```bash
-docker run -p 8000:8000 --env-file .env movie-search-system
+docker run -p 8000:8000 --env-file .env movie-search-bot
 ```
 
 4. Access the application at `http://localhost:8000`
