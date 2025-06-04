@@ -1,0 +1,14 @@
+openai==1.82.1
+langchain-groq>=0.3.2
+chromadb==1.0.12
+pandas==2.2.3
+torch==2.7.0
+python-dotenv==1.1.0
+huggingface-hub==0.32.3
+chainlit==2.5.5
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.49,<1.0.0
+langchain-openai>=0.1.7
+sentence-transformers==2.7.0
+gradio-client==0.16.4
