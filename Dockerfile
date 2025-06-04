@@ -30,7 +30,7 @@ COPY ingest_data.py .
 ENV PYTHONUNBUFFERED=1
 
 # Expose port for Chainlit
-EXPOSE 8000
+EXPOSE 8501
 
 # Command to run the application
 CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0"]

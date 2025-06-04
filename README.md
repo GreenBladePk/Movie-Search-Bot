@@ -74,10 +74,10 @@ python ingest_data.py
 
 3. Start the chat interface:
 ```bash
-chainlit run app.py
+streamlit run app.py
 ```
 
-4. Open your browser and navigate to `http://localhost:8000`
+4. Open your browser and navigate to `http://localhost:8501`
 
 ## Usage Examples
 
@@ -122,7 +122,7 @@ docker build -t movie-search-bot .
 docker run -p 8000:8000 --env-file .env movie-search-bot
 ```
 
-4. Access the application at `http://localhost:8000`
+4. Access the application at `http://localhost:8501`
 
 Note: Make sure your `.env` file contains the required API keys before running the container.
 
