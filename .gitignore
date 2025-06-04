@@ -1,7 +1,7 @@
 # Hidden files and directories
 .*
-!.gitignore
-!.env
+.gitignore
+.env
 
 # Text files except requirements.txt
 *.txt
