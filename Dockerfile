@@ -33,4 +33,4 @@ ENV PYTHONUNBUFFERED=1
 EXPOSE 8501
 
 # Command to run the application
-CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--host", "0.0.0.0"]
